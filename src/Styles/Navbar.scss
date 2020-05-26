@@ -1,0 +1,24 @@
+* {
+    text-decoration: none;
+    color: black;
+}
+.nav-contain {
+    display: flex;
+    justify-content: space-between;
+
+
+    .header-title {
+        margin: 15px 0px 0px 40px;
+        font-size: 10px;
+    }
+
+    .right-nav {
+        display: flex;
+        list-style-type: none;
+        margin-right: 40px;
+    }
+
+    .link {
+        margin: 15px 20px 0px 0px;
+    }
+}
